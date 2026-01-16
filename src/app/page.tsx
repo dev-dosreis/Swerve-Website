@@ -19,112 +19,114 @@ export default function HomePage() {
     <div className="space-y-24 pb-24 pt-16 sm:pb-28 sm:pt-20">
       <section className="relative mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
         <AmbientOrbs />
-        <div className="section-surface relative overflow-hidden rounded-[40px] p-8 sm:p-10">
+        <div className="section-surface relative overflow-hidden rounded-[40px] p-6 sm:p-10">
           <div className="grid-overlay absolute inset-0 opacity-40" />
           <div className="relative grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
-          <FadeIn>
-            <div className="space-y-6">
-              <Badge className="bg-muted/40 text-foreground">
-                {siteContent.hero.trustLine}
-              </Badge>
-              <h1 className="text-balance font-display text-4xl font-semibold tracking-tight text-gradient sm:text-5xl lg:text-6xl">
-                {siteContent.hero.headline}
-              </h1>
-              <p className="text-pretty text-base text-muted sm:text-lg">
-                {siteContent.hero.subheadline}
-              </p>
-              <div className="flex flex-wrap gap-3 text-xs uppercase tracking-[0.3em] text-muted">
-                <span className="rounded-full border border-border bg-background/70 px-4 py-2">
-                  UX claro
-                </span>
-                <span className="rounded-full border border-border bg-background/70 px-4 py-2">
-                  Next.js
-                </span>
-                <span className="rounded-full border border-border bg-background/70 px-4 py-2">
-                  Performance 90+
-                </span>
-              </div>
-              <div className="flex flex-wrap gap-4">
-                <Button asChild variant="accent" size="lg">
-                  <Link href={siteContent.hero.primaryCta.href}>
-                    {siteContent.hero.primaryCta.label}
-                  </Link>
-                </Button>
-                <Button asChild variant="secondary" size="lg">
-                  <Link href={siteContent.hero.secondaryCta.href}>
-                    {siteContent.hero.secondaryCta.label}
-                  </Link>
-                </Button>
-              </div>
-              <div className="grid gap-4 sm:grid-cols-2">
-                <div className="card-hover rounded-2xl border border-border bg-card p-5 shadow-sm">
-                  <p className="text-xs uppercase tracking-[0.3em] text-muted">
-                    Time-to-market
-                  </p>
-                  <p className="mt-3 text-2xl font-semibold">Sprints ageis</p>
-                  <p className="mt-2 text-sm text-muted">
-                    Entregas rapidas sem comprometer o acabamento premium.
-                  </p>
+            <FadeIn>
+              <div className="space-y-6">
+                <Badge className="bg-muted/40 text-foreground">
+                  {siteContent.hero.trustLine}
+                </Badge>
+                <h1 className="text-balance font-display text-4xl font-semibold tracking-tight text-gradient sm:text-5xl lg:text-6xl">
+                  {siteContent.hero.headline}
+                </h1>
+                <p className="text-pretty text-base text-muted sm:text-lg">
+                  {siteContent.hero.subheadline}
+                </p>
+                <div className="flex flex-wrap gap-2 text-[10px] uppercase tracking-[0.3em] text-muted sm:gap-3 sm:text-xs">
+                  <span className="rounded-full border border-border bg-background/70 px-4 py-2">
+                    UX claro
+                  </span>
+                  <span className="rounded-full border border-border bg-background/70 px-4 py-2">
+                    Next.js
+                  </span>
+                  <span className="rounded-full border border-border bg-background/70 px-4 py-2">
+                    Performance 90+
+                  </span>
                 </div>
-                <div className="card-hover rounded-2xl border border-border bg-card p-5 shadow-sm">
-                  <p className="text-xs uppercase tracking-[0.3em] text-muted">
-                    Conversao
-                  </p>
-                  <p className="mt-3 text-2xl font-semibold">UX orientada a leads</p>
-                  <p className="mt-2 text-sm text-muted">
-                    CTAs claros e experiencias fluidas em todas as telas.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </FadeIn>
-          <FadeIn>
-            <div className="relative">
-              <div className="rounded-[32px] border border-border bg-gradient-to-br from-foreground via-foreground/90 to-foreground/70 p-8 text-background shadow-2xl">
-                <div className="space-y-6">
-                  <div className="text-xs uppercase tracking-[0.3em] text-background/60">
-                    SWERVE SYSTEM
-                  </div>
-                  <div className="rounded-2xl border border-white/10 bg-black/40 p-5 font-mono text-sm text-background/80">
-                    <p className="text-background/50">// Lighthouse snapshot</p>
-                    <div className="mt-3 space-y-2">
-                      <div className="flex items-center justify-between">
-                        <span>performance:</span>
-                        <span className="text-emerald-300">98</span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span>seo:</span>
-                        <span className="text-emerald-300">95</span>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span>ux_score:</span>
-                        <span className="text-emerald-300">97</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="space-y-3">
-                    <h2 className="text-2xl font-semibold">
-                      Painel simples, numeros claros e evolucao rapida.
-                    </h2>
-                    <p className="text-sm text-background/70">
-                      Base modular para crescer sem refazer o que ja funciona.
-                    </p>
-                  </div>
-                  <Button asChild variant="secondary" className="w-full">
+                <div className="flex flex-col gap-4 sm:flex-row">
+                  <Button asChild variant="accent" size="lg" className="w-full sm:w-auto">
                     <Link href={siteContent.hero.primaryCta.href}>
-                      Vamos construir juntos
+                      {siteContent.hero.primaryCta.label}
+                    </Link>
+                  </Button>
+                  <Button asChild variant="secondary" size="lg" className="w-full sm:w-auto">
+                    <Link href={siteContent.hero.secondaryCta.href}>
+                      {siteContent.hero.secondaryCta.label}
                     </Link>
                   </Button>
                 </div>
+                <div className="grid gap-4 sm:grid-cols-2">
+                  <div className="card-hover rounded-2xl border border-border bg-card p-5 shadow-sm">
+                    <p className="text-xs uppercase tracking-[0.3em] text-muted">
+                      Time-to-market
+                    </p>
+                    <p className="mt-3 text-2xl font-semibold">Sprints ágeis</p>
+                    <p className="mt-2 text-sm text-muted">
+                      Entregas rápidas sem comprometer o acabamento premium.
+                    </p>
+                  </div>
+                  <div className="card-hover rounded-2xl border border-border bg-card p-5 shadow-sm">
+                    <p className="text-xs uppercase tracking-[0.3em] text-muted">
+                      Conversão
+                    </p>
+                    <p className="mt-3 text-2xl font-semibold">
+                      UX orientada a leads
+                    </p>
+                    <p className="mt-2 text-sm text-muted">
+                      CTAs claros e experiências fluidas em todas as telas.
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </FadeIn>
+            </FadeIn>
+            <FadeIn>
+              <div className="relative">
+                <div className="rounded-[32px] border border-border bg-gradient-to-br from-foreground via-foreground/90 to-foreground/70 p-8 text-background shadow-2xl">
+                  <div className="space-y-6">
+                    <div className="text-xs uppercase tracking-[0.3em] text-background/60">
+                      SWERVE SYSTEM
+                    </div>
+                    <div className="rounded-2xl border border-white/10 bg-black/40 p-5 font-mono text-sm text-background/80">
+                      <p className="text-background/50">// Lighthouse snapshot</p>
+                      <div className="mt-3 space-y-2">
+                        <div className="flex items-center justify-between">
+                          <span>performance:</span>
+                          <span className="text-emerald-300">98</span>
+                        </div>
+                        <div className="flex items-center justify-between">
+                          <span>seo:</span>
+                          <span className="text-emerald-300">95</span>
+                        </div>
+                        <div className="flex items-center justify-between">
+                          <span>ux_score:</span>
+                          <span className="text-emerald-300">97</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="space-y-3">
+                      <h2 className="text-2xl font-semibold">
+                        Painel simples, números claros e evolução rápida.
+                      </h2>
+                      <p className="text-sm text-background/70">
+                        Base modular para crescer sem refazer o que já funciona.
+                      </p>
+                    </div>
+                    <Button asChild variant="secondary" className="w-full">
+                      <Link href={siteContent.hero.primaryCta.href}>
+                        Vamos construir juntos
+                      </Link>
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </FadeIn>
           </div>
         </div>
       </section>
 
       <section className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
-        <div className="section-surface relative overflow-hidden rounded-[32px] p-8 sm:p-10">
+        <div className="section-surface relative overflow-hidden rounded-[32px] p-6 sm:p-10">
           <div className="grid-overlay absolute inset-0 opacity-20" />
           <div className="relative space-y-10">
             <SectionHeading
@@ -215,7 +217,7 @@ export default function HomePage() {
             </StaggerItem>
           ))}
         </Stagger>
-        <Button asChild variant="secondary" size="lg">
+        <Button asChild variant="secondary" size="lg" className="w-full sm:w-auto">
           <Link href={siteContent.featuredWork.cta.href}>
             {siteContent.featuredWork.cta.label}
           </Link>
@@ -223,7 +225,7 @@ export default function HomePage() {
       </section>
 
       <section className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
-        <div className="section-surface rounded-[32px] p-8 sm:p-10">
+        <div className="section-surface rounded-[32px] p-6 sm:p-10">
           <div className="space-y-10">
             <SectionHeading
               eyebrow={siteContent.faq.eyebrow}
@@ -253,12 +255,12 @@ export default function HomePage() {
               </p>
             </div>
             <div className="flex flex-col gap-4">
-              <Button asChild variant="accent" size="lg">
+              <Button asChild variant="accent" size="lg" className="w-full">
                 <Link href={siteContent.finalCta.primary.href}>
                   {siteContent.finalCta.primary.label}
                 </Link>
               </Button>
-              <Button asChild variant="secondary" size="lg">
+              <Button asChild variant="secondary" size="lg" className="w-full">
                 <Link href={siteContent.finalCta.secondary.href}>
                   {siteContent.finalCta.secondary.label}
                 </Link>

@@ -22,7 +22,7 @@ export default function ContactPage() {
   return (
     <div className="relative mx-auto w-full max-w-6xl space-y-12 px-4 pb-24 pt-16 sm:px-6 sm:pt-20 lg:px-8">
       <AmbientOrbs />
-      <div className="section-surface rounded-[32px] p-8 sm:p-10">
+      <div className="section-surface rounded-[32px] p-6 sm:p-10">
         <SectionHeading
           eyebrow="Contato"
           title={siteContent.contact.title}
@@ -30,9 +30,9 @@ export default function ContactPage() {
         />
       </div>
 
-      <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
+      <div className="grid gap-6 sm:gap-8 lg:grid-cols-[0.9fr_1.1fr]">
         <FadeIn>
-          <div className="card-hover rounded-3xl border border-border bg-card p-8 shadow-sm">
+          <div className="card-hover rounded-3xl border border-border bg-card p-6 shadow-sm sm:p-8">
             <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-semibold text-foreground">
@@ -47,18 +47,18 @@ export default function ContactPage() {
               </Button>
               <div className="rounded-2xl border border-border bg-muted/30 p-5 text-sm text-muted">
                 Resposta direta e briefing simples. Podemos iniciar com uma call
-                rapida e evoluir para o escopo completo.
+                rápida e evoluir para o escopo completo.
               </div>
             </div>
           </div>
         </FadeIn>
 
         <FadeIn>
-          <div className="card-hover rounded-3xl border border-border bg-card p-8 shadow-sm">
+          <div className="card-hover rounded-3xl border border-border bg-card p-6 shadow-sm sm:p-8">
             <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-semibold text-foreground">
-                  Formulario detalhado
+                  Formulário detalhado
                 </h3>
                 <p className="mt-2 text-sm text-muted">
                   Envie o briefing e retornamos com uma proposta clara.
@@ -86,7 +86,12 @@ export default function ContactPage() {
                 </select>
                 <Textarea name="message" placeholder="Mensagem" required />
                 <Input name="budget" placeholder="Budget (opcional)" />
-                <Button type="submit" variant="secondary" size="lg" className="w-full">
+                <Button
+                  type="submit"
+                  variant="secondary"
+                  size="lg"
+                  className="w-full"
+                >
                   Enviar briefing
                 </Button>
               </form>

@@ -18,7 +18,7 @@ export function WorksGrid() {
 
   return (
     <div className="space-y-10">
-      <div className="flex flex-wrap gap-3">
+      <div className="flex gap-3 overflow-x-auto pb-2 sm:flex-wrap sm:overflow-visible">
         {siteContent.works.categories.map((category) => (
           <Button
             key={category}

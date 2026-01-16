@@ -84,13 +84,8 @@ export default function HomePage() {
               <div className="absolute -right-12 bottom-12 hidden h-28 w-28 rounded-full border border-border bg-card/80 shadow-lg lg:block" />
               <div className="rounded-[32px] border border-border bg-gradient-to-br from-foreground via-foreground/90 to-foreground/70 p-8 text-background shadow-2xl">
                 <div className="space-y-6">
-                  <div className="flex items-center gap-2 text-xs text-background/60">
-                    <span className="h-2.5 w-2.5 rounded-full bg-rose-400" />
-                    <span className="h-2.5 w-2.5 rounded-full bg-amber-300" />
-                    <span className="h-2.5 w-2.5 rounded-full bg-emerald-400" />
-                    <span className="ml-2 uppercase tracking-[0.3em]">
-                      SWERVE SYSTEM
-                    </span>
+                  <div className="text-xs uppercase tracking-[0.3em] text-background/60">
+                    SWERVE SYSTEM
                   </div>
                   <div className="rounded-2xl border border-white/10 bg-black/40 p-5 font-mono text-sm text-background/80">
                     <p className="text-background/50">// Lighthouse snapshot</p>

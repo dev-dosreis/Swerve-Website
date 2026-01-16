@@ -7,6 +7,7 @@ import { useState } from "react";
 import { siteContent } from "@/content/site";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
@@ -31,7 +32,8 @@ export function SiteHeader() {
             </Link>
           ))}
         </nav>
-        <div className="hidden md:flex">
+        <div className="hidden items-center gap-3 md:flex">
+          <ThemeToggle />
           <Button asChild variant="accent">
             <Link href={siteContent.whatsapp.href}>{siteContent.whatsapp.label}</Link>
           </Button>
@@ -65,6 +67,7 @@ export function SiteHeader() {
               {item.label}
             </Link>
           ))}
+          <ThemeToggle className="w-full justify-center" />
           <Button asChild variant="accent" className="w-full">
             <Link href={siteContent.whatsapp.href}>{siteContent.whatsapp.label}</Link>
           </Button>

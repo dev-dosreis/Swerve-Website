@@ -12,8 +12,7 @@
   whatsapp: {
     label: "Orçamento",
     href: "https://wa.me/5511999999999",
-    message:
-      "Quero um orçamento para um site/app premium com a SWERVE.",
+    message: "Quero um orçamento para um site/app premium com a SWERVE.",
   },
   hero: {
     headline: "Design simples. Resultado claro.",
@@ -31,9 +30,9 @@
   },
   services: {
     eyebrow: "Serviços",
-    title: "Tudo o que voce precisa, sem ruido.",
+    title: "Tudo o que você precisa, sem ruído.",
     description:
-      "Processo direto, comunicacao clara e entregas com alto padrao tecnico.",
+      "Processo direto, comunicação clara e entregas com alto padrão técnico.",
     items: [
       {
         title: "Landing Pages",
@@ -91,7 +90,7 @@
   featuredWork: {
     eyebrow: "Featured work",
     title: "Projetos com foco em clareza e resultado.",
-    description: "Alguns exemplos para sentir o estilo e a direcao.",
+    description: "Alguns exemplos para sentir o estilo e a direção.",
     cta: { label: "Ver todos os projetos", href: "/works" },
     items: [
       {
@@ -125,48 +124,45 @@
     title: "Perguntas frequentes",
     items: [
       {
-        question: "Qual o prazo medio de um projeto?",
+        question: "Qual o prazo médio de um projeto?",
         answer:
           "Depende do escopo. Landing pages levam de 2 a 4 semanas, projetos maiores entre 6 e 10 semanas.",
       },
       {
-        question: "Vocês cuidam de conteudo e copy?",
+        question: "Vocês cuidam de conteúdo e copy?",
         answer:
-          "Sim. Podemos apoiar na estrategia de conteudo e escrita, ou usar material existente.",
+          "Sim. Podemos apoiar na estratégia de conteúdo e escrita, ou usar material existente.",
       },
       {
-        question: "O site ja sai otimizado para SEO?",
+        question: "O site já sai otimizado para SEO?",
         answer:
-          "Sim. Estrutura tecnica, performance e metadata prontos desde o launch.",
+          "Sim. Estrutura técnica, performance e metadata prontos desde o launch.",
       },
       {
-        question: "Como funciona o suporte pos-lancamento?",
-        answer:
-          "Oferecemos acompanhamento e ajustes conforme necessidade.",
+        question: "Como funciona o suporte pós-lançamento?",
+        answer: "Oferecemos acompanhamento e ajustes conforme necessidade.",
       },
       {
-        question: "Quais tecnologias voces usam?",
+        question: "Quais tecnologias vocês usam?",
         answer:
-          "Next.js, TypeScript, TailwindCSS, shadcn/ui e integracoes sob medida.",
+          "Next.js, TypeScript, TailwindCSS, shadcn/ui e integrações sob medida.",
       },
       {
         question: "Posso integrar com ferramentas internas?",
-        answer:
-          "Sim. APIs, ERPs e CRMs podem ser integrados de forma segura.",
+        answer: "Sim. APIs, ERPs e CRMs podem ser integrados de forma segura.",
       },
     ],
   },
   finalCta: {
-    title: "Vamos simplificar o seu proximo site?",
-    description:
-      "Converse com a SWERVE e receba um plano direto para o seu projeto.",
+    title: "Vamos simplificar o seu próximo site?",
+    description: "Converse com a SWERVE e receba um plano direto para o seu projeto.",
     primary: { label: "Chamar no WhatsApp", href: "https://wa.me/5511999999999" },
     secondary: { label: "Agendar call de 15 min", href: "https://cal.com" },
   },
   about: {
-    title: "SWERVE e um estudio tech focado em simplicidade.",
+    title: "SWERVE é um estúdio tech focado em simplicidade.",
     description:
-      "Criamos experiencias digitais minimalistas, escalaveis e confiaveis para marcas que precisam de clareza.",
+      "Criamos experiências digitais minimalistas, escaláveis e confiáveis para marcas que precisam de clareza.",
     values: [
       {
         title: "Velocidade com qualidade",
@@ -185,7 +181,7 @@
   works: {
     title: "Projetos",
     description:
-      "Selecao de projetos para marcas que buscam confianca, velocidade e clareza.",
+      "Seleção de projetos para marcas que buscam confiança, velocidade e clareza.",
     categories: ["All", "Site", "App", "Dashboard"],
     items: [
       {
@@ -230,7 +226,7 @@
     title: "Vamos conversar",
     description:
       "Escolha a forma mais simples de contato ou envie um briefing direto.",
-    responseTime: "Respondemos em ate 24h uteis.",
+    responseTime: "Respondemos em até 24h úteis.",
     formspreeEndpoint: "https://formspree.io/f/your-id",
   },
   footer: {

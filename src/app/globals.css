@@ -6,7 +6,7 @@
   --muted: #5c616b;
   --card: #ffffff;
   --border: #e2e4e9;
-  --accent: #19c6a4;
+  --accent: #1bbfa3;
   --accent-foreground: #0b0c10;
 }
 
@@ -74,7 +74,7 @@
   }
 
   .text-gradient {
-    background: linear-gradient(120deg, #0b0c10 0%, #19c6a4 55%, #0b0c10 100%);
+    background: linear-gradient(120deg, #0b0c10 0%, #2aa88e 55%, #0b0c10 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -106,9 +106,9 @@ body::before {
   position: fixed;
   inset: 0;
   background:
-    radial-gradient(circle at top left, rgba(25, 198, 164, 0.12), transparent 40%),
-    radial-gradient(circle at top right, rgba(19, 24, 35, 0.08), transparent 35%),
-    linear-gradient(120deg, rgba(255, 255, 255, 0.8), rgba(245, 247, 250, 0.9));
+    radial-gradient(circle at top left, rgba(27, 191, 163, 0.1), transparent 42%),
+    radial-gradient(circle at top right, rgba(19, 24, 35, 0.06), transparent 38%),
+    linear-gradient(120deg, rgba(255, 255, 255, 0.86), rgba(245, 247, 250, 0.92));
   z-index: -2;
 }
 

@@ -22,13 +22,15 @@ export default function ContactPage() {
   return (
     <div className="relative mx-auto w-full max-w-6xl space-y-12 px-4 pb-24 pt-16 sm:px-6 sm:pt-20 lg:px-8">
       <AmbientOrbs />
-      <div className="section-surface rounded-[32px] p-6 sm:p-10">
-        <SectionHeading
-          eyebrow="Contato"
-          title={siteContent.contact.title}
-          description={siteContent.contact.description}
-        />
-      </div>
+      <FadeIn>
+        <div className="section-surface rounded-[32px] p-6 sm:p-10">
+          <SectionHeading
+            eyebrow="Contato"
+            title={siteContent.contact.title}
+            description={siteContent.contact.description}
+          />
+        </div>
+      </FadeIn>
 
       <div className="grid gap-6 sm:gap-8 lg:grid-cols-[0.9fr_1.1fr]">
         <FadeIn>

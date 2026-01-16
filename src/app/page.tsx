@@ -83,31 +83,39 @@ export default function HomePage() {
               <div className="absolute -left-8 top-12 hidden h-36 w-36 rounded-full border border-border bg-card/80 shadow-lg lg:block" />
               <div className="absolute -right-12 bottom-12 hidden h-28 w-28 rounded-full border border-border bg-card/80 shadow-lg lg:block" />
               <div className="rounded-[32px] border border-border bg-gradient-to-br from-foreground via-foreground/90 to-foreground/70 p-8 text-background shadow-2xl">
-                <div className="space-y-8">
-                  <div className="space-y-3">
-                    <p className="text-xs uppercase tracking-[0.3em] text-background/60">
+                <div className="space-y-6">
+                  <div className="flex items-center gap-2 text-xs text-background/60">
+                    <span className="h-2.5 w-2.5 rounded-full bg-rose-400" />
+                    <span className="h-2.5 w-2.5 rounded-full bg-amber-300" />
+                    <span className="h-2.5 w-2.5 rounded-full bg-emerald-400" />
+                    <span className="ml-2 uppercase tracking-[0.3em]">
                       SWERVE SYSTEM
-                    </p>
+                    </span>
+                  </div>
+                  <div className="rounded-2xl border border-white/10 bg-black/40 p-5 font-mono text-sm text-background/80">
+                    <p className="text-background/50">// Lighthouse snapshot</p>
+                    <div className="mt-3 space-y-2">
+                      <div className="flex items-center justify-between">
+                        <span>performance:</span>
+                        <span className="text-emerald-300">98</span>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <span>seo:</span>
+                        <span className="text-emerald-300">95</span>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <span>ux_score:</span>
+                        <span className="text-emerald-300">97</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="space-y-3">
                     <h2 className="text-2xl font-semibold">
                       Interface premium, codigo limpo e metricas visiveis.
                     </h2>
                     <p className="text-sm text-background/70">
                       Estrutura modular para evoluir o produto sem retrabalho.
                     </p>
-                  </div>
-                  <div className="glass-panel grid gap-4 rounded-2xl border border-white/10 p-5">
-                    <div className="flex items-center justify-between text-sm">
-                      <span>Performance</span>
-                      <span className="font-semibold">98</span>
-                    </div>
-                    <div className="flex items-center justify-between text-sm">
-                      <span>SEO</span>
-                      <span className="font-semibold">95</span>
-                    </div>
-                    <div className="flex items-center justify-between text-sm">
-                      <span>UX Score</span>
-                      <span className="font-semibold">97</span>
-                    </div>
                   </div>
                   <Button asChild variant="secondary" className="w-full">
                     <Link href={siteContent.hero.primaryCta.href}>

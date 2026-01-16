@@ -15,7 +15,7 @@ const buttonVariants = cva(
           "bg-card text-foreground border border-border hover:-translate-y-0.5 hover:bg-muted",
         ghost: "bg-transparent text-foreground hover:bg-muted",
         accent:
-          "bg-accent text-accent-foreground hover:-translate-y-0.5 hover:bg-accent/90 shadow-lg shadow-accent/20",
+          "bg-gradient-to-r from-foreground via-accent to-foreground text-background hover:-translate-y-0.5 hover:opacity-90 shadow-lg shadow-foreground/20",
       },
       size: {
         default: "h-11 px-6",

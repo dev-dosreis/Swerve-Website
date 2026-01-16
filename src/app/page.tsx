@@ -189,11 +189,11 @@ export default function HomePage() {
               className="group card-hover rounded-3xl border border-border bg-card p-6 shadow-sm"
             >
               <div className="space-y-4">
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                   <p className="text-xs uppercase tracking-[0.3em] text-muted">
                     {work.category}
                   </p>
-                  <div className="flex gap-2">
+                  <div className="flex flex-wrap gap-2 sm:justify-end">
                     {work.stack.map((tag) => (
                       <Badge key={tag}>{tag}</Badge>
                     ))}

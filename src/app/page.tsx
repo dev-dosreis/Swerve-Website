@@ -35,13 +35,13 @@ export default function HomePage() {
               </p>
               <div className="flex flex-wrap gap-3 text-xs uppercase tracking-[0.3em] text-muted">
                 <span className="rounded-full border border-border bg-background/70 px-4 py-2">
-                  UX Premium
+                  UX claro
                 </span>
                 <span className="rounded-full border border-border bg-background/70 px-4 py-2">
                   Next.js
                 </span>
                 <span className="rounded-full border border-border bg-background/70 px-4 py-2">
-                  Lighthouse 90+
+                  Performance 90+
                 </span>
               </div>
               <div className="flex flex-wrap gap-4">
@@ -104,10 +104,10 @@ export default function HomePage() {
                   </div>
                   <div className="space-y-3">
                     <h2 className="text-2xl font-semibold">
-                      Interface premium, codigo limpo e metricas visiveis.
+                      Painel simples, numeros claros e evolucao rapida.
                     </h2>
                     <p className="text-sm text-background/70">
-                      Estrutura modular para evoluir o produto sem retrabalho.
+                      Base modular para crescer sem refazer o que ja funciona.
                     </p>
                   </div>
                   <Button asChild variant="secondary" className="w-full">

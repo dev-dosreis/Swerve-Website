@@ -1,7 +1,7 @@
 ﻿export const siteContent = {
   name: "SWERVE",
   description:
-    "Sites, apps e sistemas com padrão premium. Design minimalista e código escalável para marcas tech que precisam converter.",
+    "Sites e produtos digitais com design essencial, performance alta e foco em conversão.",
   url: "https://swerve.vercel.app",
   nav: [
     { label: "Home", href: "/" },
@@ -16,10 +16,10 @@
       "Quero um orçamento para um site/app premium com a SWERVE.",
   },
   hero: {
-    headline: "Produtos digitais com padrão premium.",
+    headline: "Design simples. Resultado claro.",
     subheadline:
-      "A SWERVE cria sites, apps e sistemas sob medida com foco em performance, UX e conversão de leads.",
-    trustLine: "Sites, apps e sistemas com padrão premium",
+      "Criamos sites e produtos digitais com foco no que importa: confiança, velocidade e conversão.",
+    trustLine: "Sites e produtos digitais com padrão premium",
     primaryCta: {
       label: "Pedir orçamento",
       href: "https://wa.me/5511999999999",
@@ -31,9 +31,9 @@
   },
   services: {
     eyebrow: "Serviços",
-    title: "Do conceito ao deploy com máxima confiança.",
+    title: "Tudo o que voce precisa, sem ruido.",
     description:
-      "Sprints enxutos, comunicação direta e entregas que combinam design premium com engenharia sólida.",
+      "Processo direto, comunicacao clara e entregas com alto padrao tecnico.",
     items: [
       {
         title: "Landing Pages",
@@ -64,7 +64,7 @@
   },
   process: {
     eyebrow: "Como funciona",
-    title: "Processo enxuto, entregas previsíveis.",
+    title: "Um caminho simples do briefing ao deploy.",
     steps: [
       {
         title: "Call rápida",
@@ -90,8 +90,8 @@
   },
   featuredWork: {
     eyebrow: "Featured work",
-    title: "Projetos que combinam estética e performance.",
-    description: "Exemplos fictícios para visualização inicial.",
+    title: "Projetos com foco em clareza e resultado.",
+    description: "Alguns exemplos para sentir o estilo e a direcao.",
     cta: { label: "Ver todos os projetos", href: "/works" },
     items: [
       {
@@ -125,29 +125,29 @@
     title: "Perguntas frequentes",
     items: [
       {
-        question: "Qual o prazo médio de um projeto?",
+        question: "Qual o prazo medio de um projeto?",
         answer:
           "Depende do escopo. Landing pages levam de 2 a 4 semanas, projetos maiores entre 6 e 10 semanas.",
       },
       {
-        question: "Vocês cuidam de conteúdo e copy?",
+        question: "Vocês cuidam de conteudo e copy?",
         answer:
-          "Sim, podemos apoiar na estratégia de conteúdo e escrita, ou trabalhar com material existente.",
+          "Sim. Podemos apoiar na estrategia de conteudo e escrita, ou usar material existente.",
       },
       {
-        question: "O site já sai otimizado para SEO?",
+        question: "O site ja sai otimizado para SEO?",
         answer:
-          "Sim. Estrutura técnica, performance e metadata prontos para indexação desde o launch.",
+          "Sim. Estrutura tecnica, performance e metadata prontos desde o launch.",
       },
       {
-        question: "Como funciona o suporte pós-lançamento?",
+        question: "Como funciona o suporte pos-lancamento?",
         answer:
-          "Oferecemos acompanhamento e ajustes contínuos conforme necessidade.",
+          "Oferecemos acompanhamento e ajustes conforme necessidade.",
       },
       {
-        question: "Quais tecnologias vocês usam?",
+        question: "Quais tecnologias voces usam?",
         answer:
-          "Next.js, TypeScript, TailwindCSS, shadcn/ui e integrações sob medida.",
+          "Next.js, TypeScript, TailwindCSS, shadcn/ui e integracoes sob medida.",
       },
       {
         question: "Posso integrar com ferramentas internas?",
@@ -157,16 +157,16 @@
     ],
   },
   finalCta: {
-    title: "Pronto para elevar sua presença digital?",
+    title: "Vamos simplificar o seu proximo site?",
     description:
-      "Converse com a SWERVE e receba um plano objetivo para lançar seu projeto premium.",
+      "Converse com a SWERVE e receba um plano direto para o seu projeto.",
     primary: { label: "Chamar no WhatsApp", href: "https://wa.me/5511999999999" },
     secondary: { label: "Agendar call de 15 min", href: "https://cal.com" },
   },
   about: {
-    title: "SWERVE é estúdio tech premium focado em conversão.",
+    title: "SWERVE e um estudio tech focado em simplicidade.",
     description:
-      "Somos especialistas em criar experiências digitais minimalistas, escaláveis e confiáveis para marcas que exigem alto padrão.",
+      "Criamos experiencias digitais minimalistas, escalaveis e confiaveis para marcas que precisam de clareza.",
     values: [
       {
         title: "Velocidade com qualidade",
@@ -185,7 +185,7 @@
   works: {
     title: "Projetos",
     description:
-      "Uma seleção de projetos pensados para marcas que querem confiança, velocidade e clareza.",
+      "Selecao de projetos para marcas que buscam confianca, velocidade e clareza.",
     categories: ["All", "Site", "App", "Dashboard"],
     items: [
       {
@@ -229,8 +229,8 @@
   contact: {
     title: "Vamos conversar",
     description:
-      "Escolha a forma mais rápida de contato ou envie um briefing direto.",
-    responseTime: "Respondemos em até 24h úteis.",
+      "Escolha a forma mais simples de contato ou envie um briefing direto.",
+    responseTime: "Respondemos em ate 24h uteis.",
     formspreeEndpoint: "https://formspree.io/f/your-id",
   },
   footer: {

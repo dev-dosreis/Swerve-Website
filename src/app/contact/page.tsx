@@ -46,7 +46,7 @@ export default function ContactPage() {
                 <Link href={siteContent.whatsapp.href}>Chamar no WhatsApp</Link>
               </Button>
               <div className="rounded-2xl border border-border bg-muted/30 p-5 text-sm text-muted">
-                Respostas diretas e briefing objetivo. Podemos iniciar com uma call
+                Resposta direta e briefing simples. Podemos iniciar com uma call
                 rapida e evoluir para o escopo completo.
               </div>
             </div>
@@ -61,7 +61,7 @@ export default function ContactPage() {
                   Formulario detalhado
                 </h3>
                 <p className="mt-2 text-sm text-muted">
-                  Envie o briefing e retornamos com uma proposta personalizada.
+                  Envie o briefing e retornamos com uma proposta clara.
                 </p>
               </div>
               <form

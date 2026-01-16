@@ -44,9 +44,9 @@ export default function AboutPage() {
               description={siteContent.about.description}
             />
             <p className="text-base text-muted">
-              Nosso foco esta na confianca: desde a primeira impressao do site ate
-              o deploy, cuidamos de cada detalhe para que sua marca transmita
-              seguranca e performance.
+              Nosso foco esta na simplicidade: do primeiro rascunho ao deploy,
+              cuidamos de cada detalhe para que sua marca transmita clareza e
+              confianca.
             </p>
             <Button asChild variant="accent" size="lg">
               <Link href={siteContent.whatsapp.href}>Falar no WhatsApp</Link>

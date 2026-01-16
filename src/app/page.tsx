@@ -80,8 +80,6 @@ export default function HomePage() {
           </FadeIn>
           <FadeIn>
             <div className="relative">
-              <div className="absolute -left-8 top-12 hidden h-36 w-36 rounded-full border border-border bg-card/80 shadow-lg lg:block" />
-              <div className="absolute -right-12 bottom-12 hidden h-28 w-28 rounded-full border border-border bg-card/80 shadow-lg lg:block" />
               <div className="rounded-[32px] border border-border bg-gradient-to-br from-foreground via-foreground/90 to-foreground/70 p-8 text-background shadow-2xl">
                 <div className="space-y-6">
                   <div className="text-xs uppercase tracking-[0.3em] text-background/60">
